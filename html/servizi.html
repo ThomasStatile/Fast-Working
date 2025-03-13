@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Fast Working</title>
+</head>
+<body>
+    <header>
+        <section class="grid-1">
+            <div class="header-content">
+                <div class="phone">
+                    <i class="fa-solid fa-mobile"></i>
+                    <p class="header-p"> +39 338 675 9900</p>
+                </div>
+                <div class="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="header-p"> Via Roma, 137 - 20025 - Legnano (MI)</p>
+                </div>
+                <div class="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="header-p">pippo@gmail.com</p>
+                </div>
+            </div>
+        </section>
+            
+    </header>
+
+    <nav>
+        <div class="links">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="chi-siamo.html">CHI SIAMO</a>
+            </li>
+            <li>
+                <a href="./servizi.html">SERVIZI</a>
+            </li>
+            <button>
+                <a href="./contatti.html">CONTATTI</a>
+            </button>
+        </div>
+    </nav>
+
+    <section class="servizi-hero-1">
+        <div class="overlay"></div>
+        <button class="burger-menu" id="burger-menu" onclick="openBurgerMenu()">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </button>
+        <div class="burger-menu-content" id="burger-menu-content">
+            <button class="close-burger" id="close-burger" onclick="closeBurgerMenu()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="burger-links" id="burger-links">
+                <a href="./index.html">HOME</a>
+                <a href="./chi-siamo.html">CHI SIAMO</a>
+                <a href="./servizi.html">SERVIZI</a>
+                <a href="./contatti.html">CONTATTI</a>
+            </div>
+        </div>
+        <div class="cs-hero-1-text">
+            <h1 style="z-index: 3;">Da spazi comuni a straordinari: trasformiamo ogni ambiente in qualcosa di speciale.</h1>
+            <h3 style="z-index: 3;">Lascia che il nostro standard di eccellenza diventi il tuo nuovo punto di riferimento.</h3>
+            <button class="down down-cs">
+                <a href="#cs-hero-2">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <section class="servizi-hero-2">
+        <div class="grid-2">
+            <div class="image-container">
+                <div class="image" id="ristr">
+                    <div class="image-overlay">
+                        <div class="image-text">
+                            <h4>RISTRUTTURAZIONI</h4>
+                            <p>Dall'inizio alla fine, ti guidiamo attraverso il processo con trasparenza e professionalità. 
+                                La nostra missione è vedere un sorriso di soddisfazione sul tuo volto quando varchi la soglia del nuovo. Lasciati ispirare dalla potenza della ristrutturazione: un viaggio in cui le tue aspettative diventano la nostra sfida e il risultato finale supera ogni immaginazione.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               
+            <div class="image-container">
+                <img src="../img/pulizie.jpg" alt="Avatar" class="image">
+                <div class="image-overlay">
+                  <div class="image-text">Hello World</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-1">
+            <div class="image-container">
+                <img src="../img/traslochi.jpg" alt="Avatar" class="image">
+                <div class="image-overlay">
+                  <div class="image-text">
+                    <h4>RISTRUTTURAZIONI</h4>
+                    <p></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+        <div class="grid-3 footer-links">
+            <div class="footer-link">
+                <h4 class="footer-title">LINK UTILI</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Cookie</a></li>
+                </ul>
+            </div>
+            <div class="footer-link">
+                <h4 class="footer-title">SERVIZI</h4>
+                <ul>
+                    <li><a href="">Pulizie</a></li>
+                    <li><a href="">Ristrutturazioni</a></li>
+                    <li><a href="">Traslochi</a></li>
+                </ul>
+            </div>
+            <div class="footer-link">
+                <h4 class="footer-title">CONTATTI</h4>
+                <div class="phone fi">
+                    <i class="fa-solid fa-mobile"></i>
+                    <p>+39 338 675 9900</p>
+                </div>
+                <div class="address fi">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p> Via Roma, 137 - 20025 - Legnano (MI)</p>
+                </div>
+                <div class="email fi">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>pippo@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer-text">
+            <p style="color: white; font-size: 14px;">Powered by Thomas Statile</p>
+        </div>
+    </section>
+    
+    <script src="../script.js"></script>
+</body>
+</html>
