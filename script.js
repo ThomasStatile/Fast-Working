@@ -26,3 +26,7 @@ function closeBurgerMenu() {
     closeBurger.classList.add("close-burger");
     burgerLinks.classList.add("burger-links");
 }
+
+function scrollButton() {
+    document.getElementById("hero-2").scrollIntoView({ behavior: "smooth" });
+}
